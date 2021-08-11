@@ -1,0 +1,186 @@
+body {
+  background-color: lightseagreen;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+span {
+  background: lightblue;
+  text-transform: uppercase;
+  padding: 5px;
+  box-shadow: lightseagreen;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  display: inline-block;
+  background-color: white;
+  width: 200px;
+  border: 5px solid lightblue;
+  padding: 25px;
+  margin: 20px;
+  overflow: hidden;
+  
+  nav a {
+    float: centre;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+}
+
+p {
+  text-align: center;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+section {}
+
+article {}
+
+main {
+  background-color: white;
+  width: 100%;
+  border: 15px solid lightblue;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+figure {
+  background-image: url("repeating_pattern_bkg_image.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  border: 1px #c0c0c0 solid;
+  padding: 5px;
+  max-width: 410px;
+  margin: auto;
+}
+
+img {
+  max-width: 410px;
+  max-height: 273px;
+}
+
+figcaption {
+  background-color: lightseagreen;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+h2 {}
+
+h3 {}
+
+address {}
+
+footer {
+  background-image: url("repeating_pattern_bkg_image.jpg");
+  background-repeat: repeat-x;
+  width: 100%;
+  border: 5px solid lightblue;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+}
+
+header>section {
+  background-image: url("crayons2.jpg");
+  background-repeat: no-repeat;
+  background: cover;
+  background-position: bottom;
+  width: 100%;
+  border: 5px solid lightblue;
+  padding: 70px;
+  margin: 40px;
+
+}
+
+header>section>ul {
+  width: 100%;
+  border: 5px solid lightblue;
+  padding: 70px;
+  margin: 40px;
+}
+
+article>section>h1 {
+  background-color: white;
+  width: 100%;
+  border: 5px solid lightblue;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  font-size: large;
+  color: lightseagreen;
+}
+
+main>section>h1 {
+  background-color: white;
+  width: 100%;
+  border: 5px solid lightblue;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  color: lightseagreen;
+}
+
+main>section>h2 {
+  background-color: white;
+  width: 100%;
+  border: 5px solid lightblue;
+  padding: 25px;
+  margin: 5px;
+  text-align: center;
+  color: lightseagreen;
+}
+
+address>section>h1 {
+  background-color: white;
+  width: 100%;
+  border: 5px solid lightblue;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  color: lightseagreen;
+}
+
+address>section>h2 {
+  background-color: white;
+  width: 100%;
+  border: 5px solid lightblue;
+  padding: 25px;
+  margin: 5px;
+  text-align: center;
+  color: lightseagreen;
+}
